@@ -8,7 +8,11 @@
     <link rel="stylesheet" href="./public/css/app.css">
 </head>
 
+
+
 <body>
+
+
 
 
 
@@ -16,6 +20,33 @@
     <!-- !HEADER -->
     <header>
 
+
+
+
+
+
+    <!-- <div class="my_modal">
+        <div class="modal_form1 d-flex justify-content-around p-3">
+            <h1 class="text-light pointer_top top1_bg">Signup</h1>
+            <h1 class="text-light pointer_top top2_bg">Login</h1>
+        </div>
+    <div class="form_login_signup d-flex w-100 justify-content-around">
+        <div class="Signup">
+            <input placeholder="Enter text here" class="input-style" type="text">
+            <input placeholder="Enter text here" class="input-style" type="text">
+            <input placeholder="Enter text here" class="input-style" type="text">
+        </div> -->
+
+
+        <!-- <div class="login">
+            <input placeholder="Enter text here" class="input-style" type="text">
+            <input placeholder="Enter text here" class="input-style" type="text">
+            <input placeholder="Enter text here" class="input-style" type="text">
+        </div>
+
+    </div>
+    
+    </div> -->
 
     <nav class="navbar navbar-expand-lg d-lg-flex justify-content-lg-around w-100 p-lg-2">
         <div class="container-fluid">
@@ -202,23 +233,252 @@
                 <h3>Our Menu</h3>
                 <h1>Check Our <span class="text-danger">Yummy Menu</span></h1>
             </div>
-        <ul class="nav nav-underline">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Active</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-dark" href="">Starters</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link text-danger" href="">Breakfast</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-dark" href="">Lunch</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-danger" href="">Dinner</a>
-              </li>
-          </ul>
+
+
+            <ul class="nav nav-tabs" id="myTab" role="tablist">
+                <li class="nav-item" role="presentation">
+                        <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">Home</button>
+                      </li>
+                  <button class="nav-link text-danger" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">BreakFast</button>
+                </li>
+                <li class="nav-item text-danger" role="presentation">
+                  <button class="nav-link text-danger" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact-tab-pane" type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false">Lunch</button>
+                </li>
+                <!-- <li class="nav-item" role="presentation">
+                    <button class="nav-link text-danger" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact-tab-pane" type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false">Dinner</button>
+                  </li> -->
+              </ul>
+              <div class="tab-content" id="myTabContent">
+                <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
+
+                    <div class="img_menu d-flex flex-column justify-content-between ">
+                        <div class="first3_menu">
+                            <div class="divone_menu">
+                                            <img src="./public/assets/img/menu/menu-item-1.png" alt="">
+                                            <h5 class="text-center">Magnam Tiste</h5>
+                                            <p>Lorem ipsum dolor sit amet.</p>
+                                            <h4 class="text-danger text-center">$5.95</h4>
+                            </div>
+
+                            <div class="divone_menu">
+                                            <img src="./public/assets/img/menu/menu-item-1.png" alt="">
+                                            <h5 class="text-center">Aut Luia</h5>
+                                            <p>Lorem ipsum dolor sit amet.</p>
+                                            <h4 class="text-danger text-center">$14.95</h4>
+                            </div>
+
+                            <div class="divone_menu">
+                                            <img src="./public/assets/img/menu/menu-item-1.png" alt="">
+                                            <h5 class="text-center">Est Eligendi</h5>
+                                            <p>Lorem ipsum dolor sit amet.</p>
+                                            <h4 class="text-danger text-center">$8.95</h4>
+                            </div>
+
+                </div>
+
+                    <div class="second3_menu">
+                        <div class="divone_menu d-flex flex-column">
+                            <img src="./public/assets/img/menu/menu-item-1.png" alt="">
+                            <h5 class="text-center">Eos Luibusdam</h5>
+                            <p>Lorem ipsum dolor sit amet.</p>
+                            <h4 class="text-danger text-center">$12.95</h4>
+            </div>
+
+            <div class="divone_menu">
+                            <img src="./public/assets/img/menu/menu-item-1.png" alt="">
+                            <h5 class="text-center">Eos Luibusdam</h5>
+                            <p>Lorem ipsum dolor sit amet.</p>
+                            <h4 class="text-danger text-center">$12.95</h4>
+            </div>
+
+            <div class="divone_menu">
+                            <img src="./public/assets/img/menu/menu-item-1.png" alt="">
+                            <h5 class="text-center">Laboriosam Direva</h5>
+                            <p>Lorem ipsum dolor sit amet.</p>
+                            <h4 class="text-danger text-center">$9.95</h4>
+            </div>
+                </div>
+                </div>
+                </div>
+
+                </div>
+
+
+                <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
+                    <div class="img_menu d-flex flex-column justify-content-between h-75">
+                        <div class="first3_menu">
+                            <div class="divone_menu d-flex flex-column">
+                                            <img src="./public/assets/img/menu/menu-item-1.png" alt="">
+                                            <h5 class="text-center">Magnam Tiste</h5>
+                                            <p>Lorem ipsum dolor sit amet.</p>
+                                            <h4 class="text-danger text-center">$5.95</h4>
+                            </div>
+
+                            <div class="divone_menu">
+                                            <img src="./public/assets/img/menu/menu-item-1.png" alt="">
+                                            <h5 class="text-center">Aut Luia</h5>
+                                            <p>Lorem ipsum dolor sit amet.</p>
+                                            <h4 class="text-danger text-center">$14.95</h4>
+                            </div>
+
+                            <div class="divone_menu">
+                                            <img src="./public/assets/img/menu/menu-item-1.png" alt="">
+                                            <h5 class="text-center">Est Eligendi</h5>
+                                            <p>Lorem ipsum dolor sit amet.</p>
+                                            <h4 class="text-danger text-center">$8.95</h4>
+                            </div>
+
+                </div>
+
+                    <div class="second3_menu">
+                        <div class="divone_menu d-flex flex-column">
+                            <img src="./public/assets/img/menu/menu-item-1.png" alt="">
+                            <h5 class="text-center">Eos Luibusdam</h5>
+                            <p>Lorem ipsum dolor sit amet.</p>
+                            <h4 class="text-danger text-center">$12.95</h4>
+            </div>
+
+            <div class="divone_menu">
+                            <img src="./public/assets/img/menu/menu-item-1.png" alt="">
+                            <h5 class="text-center">Eos Luibusdam</h5>
+                            <p>Lorem ipsum dolor sit amet.</p>
+                            <h4 class="text-danger text-center">$12.95</h4>
+            </div>
+
+            <div class="divone_menu">
+                            <img src="./public/assets/img/menu/menu-item-1.png" alt="">
+                            <h5 class="text-center">Laboriosam Direva</h5>
+                            <p>Lorem ipsum dolor sit amet.</p>
+                            <h4 class="text-danger text-center">$9.95</h4>
+            </div>
+                </div>
+
+
+                </div>
+
+
+                </div>
+
+<!-- 
+                <div class="tab-pane fade" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab" tabindex="0">
+                    
+                    <div class="img_menu d-flex flex-column justify-content-between h-75">
+                        <div class="first3_menu">
+                            <div class="divone_menu d-flex flex-column">
+                                            <img src="./public/assets/img/menu/menu-item-1.png" alt="">
+                                            <h5 class="text-center">Magnam Tiste</h5>
+                                            <p>Lorem ipsum dolor sit amet.</p>
+                                            <h4 class="text-danger text-center">$5.95</h4>
+                            </div>
+
+                            <div class="divone_menu">
+                                            <img src="./public/assets/img/menu/menu-item-1.png" alt="">
+                                            <h5 class="text-center">Aut Luia</h5>
+                                            <p>Lorem ipsum dolor sit amet.</p>
+                                            <h4 class="text-danger text-center">$14.95</h4>
+                            </div>
+
+                            <div class="divone_menu">
+                                            <img src="./public/assets/img/menu/menu-item-1.png" alt="">
+                                            <h5 class="text-center">Est Eligendi</h5>
+                                            <p>Lorem ipsum dolor sit amet.</p>
+                                            <h4 class="text-danger text-center">$8.95</h4>
+                            </div>
+
+                </div>
+
+                    <div class="second3_menu">
+                        <div class="divone_menu d-flex flex-column">
+                            <img src="./public/assets/img/menu/menu-item-1.png" alt="">
+                            <h5 class="text-center">Eos Luibusdam</h5>
+                            <p>Lorem ipsum dolor sit amet.</p>
+                            <h4 class="text-danger text-center">$12.95</h4>
+            </div>
+
+            <div class="divone_menu">
+                            <img src="./public/assets/img/menu/menu-item-1.png" alt="">
+                            <h5 class="text-center">Eos Luibusdam</h5>
+                            <p>Lorem ipsum dolor sit amet.</p>
+                            <h4 class="text-danger text-center">$12.95</h4>
+            </div>
+
+            <div class="divone_menu">
+                            <img src="./public/assets/img/menu/menu-item-1.png" alt="">
+                            <h5 class="text-center">Laboriosam Direva</h5>
+                            <p>Lorem ipsum dolor sit amet.</p>
+                            <h4 class="text-danger text-center">$9.95</h4>
+            </div>
+                </div>
+
+
+                </div>
+
+
+                </div>
+
+                </div> -->
+
+
+
+
+                <div class="tab-pane fade" id="disabled-tab-pane" role="tabpanel" aria-labelledby="disabled-tab" tabindex="0">
+
+                    <div class="img_menu d-flex flex-column justify-content-between h-75">
+                        <div class="first3_menu">
+                            <div class="divone_menu d-flex flex-column">
+                                            <img src="./public/assets/img/menu/menu-item-1.png" alt="">
+                                            <h5 class="text-center">Magnam Tiste</h5>
+                                            <p>Lorem ipsum dolor sit amet.</p>
+                                            <h4 class="text-danger text-center">$5.95</h4>
+                            </div>
+
+                            <div class="divone_menu">
+                                            <img src="./public/assets/img/menu/menu-item-1.png" alt="">
+                                            <h5 class="text-center">Aut Luia</h5>
+                                            <p>Lorem ipsum dolor sit amet.</p>
+                                            <h4 class="text-danger text-center">$14.95</h4>
+                            </div>
+
+                            <div class="divone_menu">
+                                            <img src="./public/assets/img/menu/menu-item-1.png" alt="">
+                                            <h5 class="text-center">Est Eligendi</h5>
+                                            <p>Lorem ipsum dolor sit amet.</p>
+                                            <h4 class="text-danger text-center">$8.95</h4>
+                            </div>
+
+                </div>
+
+                    <div class="second3_menu">
+                        <div class="divone_menu d-flex flex-column">
+                            <img src="./public/assets/img/menu/menu-item-1.png" alt="">
+                            <h5 class="text-center">Eos Luibusdam</h5>
+                            <p>Lorem ipsum dolor sit amet.</p>
+                            <h4 class="text-danger text-center">$12.95</h4>
+            </div>
+
+            <div class="divone_menu">
+                            <img src="./public/assets/img/menu/menu-item-1.png" alt="">
+                            <h5 class="text-center">Eos Luibusdam</h5>
+                            <p>Lorem ipsum dolor sit amet.</p>
+                            <h4 class="text-danger text-center">$12.95</h4>
+            </div>
+
+            <div class="divone_menu">
+                            <img src="./public/assets/img/menu/menu-item-1.png" alt="">
+                            <h5 class="text-center">Laboriosam Direva</h5>
+                            <p>Lorem ipsum dolor sit amet.</p>
+                            <h4 class="text-danger text-center">$9.95</h4>
+            </div>
+                </div>
+
+
+                </div>
+
+
+                </div>
+
+                </div>
+              </div>
 </div>
 
 
@@ -278,6 +538,8 @@
 
 
 </div>
+
+
 
 <!-- ^Section 8 -->
 
