@@ -12009,5 +12009,116 @@ body .sec2_parent .text_sec2_ALL .sec2_text_right {
   flex-direction: column;
   width: 47vw;
 }
+body .card {
+  box-sizing: border-box;
+  width: 250px;
+  height: 300px;
+  background: rgb(255, 255, 255);
+  border: 1px solid white;
+  box-shadow: 12px 17px 51px rgba(255, 0, 0, 0.22);
+  backdrop-filter: blur(6px);
+  border-radius: 17px;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.5s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  user-select: none;
+  font-weight: bolder;
+  color: black;
+}
+body .card:hover {
+  border: 1px solid red;
+  transform: scale(1.05);
+}
+body .card:active {
+  transform: scale(0.95) rotateZ(1.7deg);
+}
+body .sec3 {
+  height: 70vh;
+  background: rgba(164, 162, 162, 0.3098039216);
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  justify-content: space-around;
+  align-items: center;
+}
+body .sec3 .card {
+  display: flex;
+  justify-content: space-between;
+  justify-content: space-around;
+}
+body .sec3 .card h2, body .sec3 .card .h2 {
+  font-size: 20px;
+}
+body .sec3 .card p {
+  font-size: 15px;
+}
+body .sec3 .card i {
+  color: red;
+  font-size: 35px;
+}
+body .sec3 .card1 {
+  box-sizing: border-box;
+  width: 450px;
+  height: 420px;
+  background: rgba(255, 0, 0, 0.832);
+  box-shadow: 12px 17px 51px rgba(255, 0, 0, 0.22);
+  backdrop-filter: blur(6px);
+  border-radius: 17px;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.5s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-around;
+  user-select: none;
+  font-weight: bolder;
+  color: black;
+}
+body .sec3 .card1:hover {
+  border: 1px solid black;
+  transform: scale(1.05);
+}
+body .sec3 .card1:active {
+  transform: scale(0.95) rotateZ(1.7);
+}
+body .sec3 .card1 h1, body .sec3 .card1 .h1 {
+  color: white;
+}
+body .sec3 .card1 p {
+  color: white;
+  font-size: 15px;
+}
+body .sec3 .card1 .btn_sec3 {
+  outline: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  background: rgba(143, 143, 143, 0.4705882353);
+  min-width: 100px;
+  border: 0;
+  border-radius: 4px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+  padding: 10px 20px;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+  overflow: hidden;
+  cursor: pointer;
+}
+body .sec3 .card1 .btn_sec3 .btn:hover {
+  opacity: 0.95;
+}
+body .sec3 .card1 .btn_sec3 .btn .animation {
+  border-radius: 100%;
+  animation: ripple 0.6s linear infinite;
+}
 
 /*# sourceMappingURL=app.css.map */
