@@ -12120,5 +12120,28 @@ body .sec3 .card1 .btn_sec3 .btn .animation {
   border-radius: 100%;
   animation: ripple 0.6s linear infinite;
 }
+body .sec4 {
+  height: 80vh;
+  margin-top: 10vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+body .sec4 h3, body .sec4 .h3 {
+  display: flex;
+  justify-content: center;
+}
+body .sec5 {
+  height: 50vh;
+  background: rgba(143, 143, 143, 0.4705882353);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px;
+}
+body .sec5 h3, body .sec5 .h3 {
+  display: flex;
+  justify-content: center;
+}
 
 /*# sourceMappingURL=app.css.map */
