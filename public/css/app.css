@@ -12143,5 +12143,180 @@ body .sec5 h3, body .sec5 .h3 {
   display: flex;
   justify-content: center;
 }
+body .sec6 {
+  height: 80vh;
+  margin-top: 10vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+body .sec7 {
+  height: 85vh;
+  background: rgba(143, 143, 143, 0.4705882353);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px;
+}
+body .sec8 {
+  height: 85vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px;
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+}
+body .sec9 {
+  height: 65vh;
+  background: rgba(143, 143, 143, 0.4705882353);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px;
+  margin-bottom: 10vh;
+}
+body .sec10 {
+  height: 75vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px;
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+}
+body .sec10 .parent_first_2 .first_child_sec10 {
+  width: 45vw;
+  background: rgba(159, 158, 158, 0.3607843137);
+  border-radius: 8px;
+}
+body .sec10 .parent_first_2 .first_child_sec10 h1, body .sec10 .parent_first_2 .first_child_sec10 .h1 {
+  color: #9f9e9e;
+  padding: 5px;
+}
+body .sec10 .parent_first_2 .first_child_sec10 p {
+  padding: 5px;
+}
+body .sec10 .parent_second_2 .first_child_sec10 {
+  width: 45vw;
+  background: rgba(159, 158, 158, 0.3607843137);
+  border-radius: 8px;
+}
+body .sec10 .parent_second_2 .first_child_sec10 h1, body .sec10 .parent_second_2 .first_child_sec10 .h1 {
+  color: #9f9e9e;
+  padding: 5px;
+}
+body .sec10 .parent_second_2 .first_child_sec10 p {
+  padding: 5px;
+}
+body .sec10 .parentAll_sec10 {
+  margin-top: 10vh;
+  width: 100%;
+  padding: 10px;
+}
+body .sec10 .textInputWrapper {
+  position: relative;
+  width: 180px;
+  margin: 12px 5px;
+  --accent-color: #e58383;
+}
+body .sec10 .textInputWrapper:before {
+  transition: border-bottom-color 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.42);
+  transition: border-bottom-color 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.42);
+}
+body .sec10 .textInputWrapper:focus-within:before {
+  border-bottom: 1px solid var(--accent-color);
+  border-bottom: 1px solid var(--accent-color);
+  transform: scaleX(1);
+}
+body .sec10 .textInputWrapper:focus-within:after {
+  border-bottom: 2px solid var(--accent-color);
+  transform: scaleX(1);
+}
+body .sec10 .textInputWrapper:focus-within .textInput::placeholder {
+  opacity: 0;
+}
+body .sec10 .textInputWrapper:after {
+  content: "";
+  transform: scaleX(0);
+  transition: transform 250ms cubic-bezier(0, 0, 0.2, 1) 0ms;
+  will-change: transform;
+  border-bottom: 2px solid var(--accent-color);
+  border-bottom-color: var(--accent-color);
+}
+body .sec10 .textInputWrapper .textInput {
+  border-radius: 5px 5px 0px 0px;
+  box-shadow: 0px 2px 5px rgba(35, 35, 35, 0.3);
+  background-color: #252525;
+  transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+  transition-duration: 200ms;
+  transition-property: background-color;
+  color: #e8e8e8;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 12px;
+  width: 100%;
+  border-left: none;
+  border-bottom: none;
+  border-right: none;
+}
+body .sec10 .textInputWrapper:before,
+body .sec10 .textInputWrapper:after {
+  content: "";
+  left: 0;
+  right: 0;
+  position: absolute;
+  pointer-events: none;
+  bottom: -1px;
+  z-index: 4;
+  width: 100%;
+}
+body .sec10 .textInput::placeholder {
+  transition: opacity 250ms cubic-bezier(0, 0, 0.2, 1) 0ms;
+  opacity: 1;
+  user-select: none;
+  color: rgba(255, 255, 255, 0.582);
+}
+body .sec10 .textInputWrapper .textInput:focus,
+body .sec10 .textInputWrapper .textInput:active {
+  outline: none;
+}
+body .sec10 .textInputWrapper:focus-within .textInput,
+body .sec10 .textInputWrapper .textInput:focus,
+body .sec10 .textInputWrapper .textInput:active {
+  background-color: #353535;
+}
+body .sec10 .inputs {
+  width: 100%;
+  margin-top: 5vh;
+}
+body .sec10 .inputs .email_name {
+  display: flex;
+  width: 75%;
+}
+body .sec10 .inputs .email_name .inputsize {
+  width: 35vw;
+  height: 8vh;
+}
+body .sec10 .inputs .subjectdiv_sec10 {
+  width: 50%;
+  margin-left: 12vw;
+}
+body .sec10 .inputs .subjectdiv_sec10 .inputsize2 {
+  width: 72vw;
+}
+body .sec10 .inputs .msg_sec10 {
+  display: flex;
+  width: 50%;
+  margin-left: 12vw;
+}
+body .sec10 .inputs .msg_sec10 .inputsize3 {
+  display: flex;
+  text-align: start;
+  width: 72vw;
+  height: 25vh;
+}
 
 /*# sourceMappingURL=app.css.map */
