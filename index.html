@@ -13,11 +13,11 @@
 <body>
 
 
-<div class="testdiv h-100">
+    <div class="testdiv h-100">
 
 
 
-</div>
+    </div>
 
 
 
@@ -174,35 +174,41 @@
                     <div class="d-flex justify-content-lg-end w-100">
                         <div class="container centered-ctn">
                             <div class="btns d-lg-flex justify-content-lg-center">
-                                <button class="btn btn-primary btn_js_nav" data-bs-toggle="modal" data-bs-target="#registerModal">SignUp/Login</button>
+                                <button class="btn btn-primary btn_js_nav" data-bs-toggle="modal"
+                                    data-bs-target="#registerModal">SignUp/Login</button>
                             </div>
                         </div>
-                
+
                         <!-- register modal -->
-                
+
                         <div class="modal fade" id="registerModal" aria-labelledby="registerLabel" aria-hidden="true">
                             <div class="modal-dialog">
                                 <div class="modal-content w-75">
                                     <div class="modal-header">
-                                        <button class="btn_modal1 btn-primary" data-bs-toggle="modal" data-bs-target="#registerModal">SignUp</button>
-                                        <button class="btn_modal2 btn-primary" data-bs-toggle="modal" data-bs-target="#loginModal">LOGIN</button>
-                
+                                        <button class="btn_modal1 btn-primary" data-bs-toggle="modal"
+                                            data-bs-target="#registerModal">SignUp</button>
+                                        <button class="btn_modal2 btn-primary" data-bs-toggle="modal"
+                                            data-bs-target="#loginModal">LOGIN</button>
+
                                         <button class="btn-close" data-bs-dismiss="modal"></button>
                                     </div>
                                     <div class="modal-body">
                                         <form action="">
                                             <div class="form-floating">
-                                                <input type="text" class="form-control" id="fname" placeholder="First Name">
+                                                <input type="text" class="form-control" id="fname"
+                                                    placeholder="First Name">
                                                 <label for="fname">First Name</label>
                                             </div>
                                             <br>
                                             <div class="form-floating">
-                                                <input type="text" class="form-control" id="Username" placeholder="Username">
+                                                <input type="text" class="form-control" id="Username"
+                                                    placeholder="Username">
                                                 <label for="Username">Username</label>
                                             </div>
                                             <br>
                                             <div class="form-floating">
-                                                <input type="Password" class="form-control" id="Password" placeholder="Password">
+                                                <input type="Password" class="form-control" id="Password"
+                                                    placeholder="Password">
                                                 <label for="Password">Password</label>
                                             </div>
                                             <br>
@@ -212,44 +218,48 @@
                                                 <label for="Password">Confirm Password</label>
                                             </div>
                                             <br>
-                
+
                                             <button class="btn btn-primary ml-4">SUBMIT</button>
-                
-                
-                
-                
+
+
+
+
                                         </form>
                                     </div>
                                 </div>
-                
+
                             </div>
                         </div>
-                
-                
-                
+
+
+
                         <!-- login modal -->
                         <div class="modal fade" id="loginModal" aria-labelledby="loginLabel">
                             <div class="modal-dialog">
                                 <div class="modal-content w-75">
                                     <div class="modal-header">
-                                        <button class="btn_modal2 btn-primary" data-bs-toggle="modal" data-bs-target="#loginModal">LOGIN</button>
-                                        <button class="btn_modal1 btn-primary" data-bs-toggle="modal" data-bs-target="#registerModal">SignUp</button>
+                                        <button class="btn_modal2 btn-primary" data-bs-toggle="modal"
+                                            data-bs-target="#loginModal">LOGIN</button>
+                                        <button class="btn_modal1 btn-primary" data-bs-toggle="modal"
+                                            data-bs-target="#registerModal">SignUp</button>
                                         <button class="btn-close" data-bs-dismiss="modal"></button>
                                     </div>
                                     <div class="modal-body">
                                         <form action="">
-                
+
                                             <div class="form-floating">
-                                                <input type="text" class="form-control" id="Username" placeholder="Username">
+                                                <input type="text" class="form-control" id="Username"
+                                                    placeholder="Username">
                                                 <label for="Username">Username</label>
                                             </div>
                                             <br>
                                             <div class="form-floating">
-                                                <input type="Password" class="form-control" id="Password" placeholder="Password">
+                                                <input type="Password" class="form-control" id="Password"
+                                                    placeholder="Password">
                                                 <label for="Password">Password</label>
                                             </div>
                                             <br>
-                
+
                                             <button class="btn btn-primary ml-4">SUBMIT</button>
                                         </form>
                                     </div>
@@ -292,8 +302,61 @@
                         </div>
 
                         <div class="sec1_button2">
-                            <button class="btn"><i class="animation"></i> Watch Video<i class="animation"></i>
-                            </button>
+
+                            <!-- Modal Video -->
+
+
+
+                            <!-- button trigger modal -->
+                            <button class="btn_modal2_2" data-mf-target="modal2"><i
+                                    class="fa-regular fa-eye p-lg-2"></i>Watch Video</button>
+                            <!-- Modal -->
+                            <div id="modal2" class="myModal d-none">
+
+
+
+
+                                <div class=" h-20 w-50  ">
+                                    <div
+                                        class="header-modal border-light border-bottom w-100 h-25 d-flex justify-content-end">
+                                        <button class="btn close text-light">Close</button>
+                                    </div>
+                                    <div class="w-100 h-75 bg-danger">
+                                        <div id="carouselExampleIndicators" class="carousel slide">
+                                            <div class="carousel-indicators">
+                                                <button type="button" data-bs-target="#carouselExampleIndicators"
+                                                    data-bs-slide-to="0" class="active" aria-current="true"
+                                                    aria-label="Slide 1"></button>
+                                                <button type="button" data-bs-target="#carouselExampleIndicators"
+                                                    data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                            </div>
+                                            <div class="carousel-inner">
+                                                <div class="carousel-item active">
+                                                    <video src="./public/assets/videos/restaurantVIDEO.mp4"
+                                                        class="d-block w-100" alt="...">
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <video src="./public/assets/videos/restaurantVIDEO.mp4"
+                                                        class="d-block w-100" alt="...">
+                                                </div>
+                                            </div>
+                                            <button class="carousel-control-prev" type="button"
+                                                data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                <span class="visually-hidden">Previous</span>
+                                            </button>
+                                            <button class="carousel-control-next" type="button"
+                                                data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                <span class="visually-hidden">Next</span>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+
                         </div>
                     </div>
 
@@ -826,8 +889,11 @@
                 <h1>Need Help? <span class="text-danger">Contact Us</span></h1>
             </div>
 
-            <div class="mapdiv_sec10">
-
+            <div class="mapdiv_sec10 pt-lg-5">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3323.058438495081!2d-7.5312767753696885!3d33.60378817332902!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xda7cdb2f812837f%3A0xbbcfc74fbc11b2d9!2sLionsGeek!5e0!3m2!1sar!2sma!4v1705656264747!5m2!1sar!2sma"
+                    width="1400" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
             <div class="parentAll_sec10 d-lg-flex justify-content-lg-around justify-content-between">
                 <div class="parent_first_2">
@@ -951,7 +1017,68 @@
         </div> -->
     </footer>
 
+    <!-- button trigger modal -->
+    <button class="btn btn-primary" data-mf-target="modal1">Open Modal</button>
+    <!-- Modal -->
+    <div id="modal1" class="myModal d-none">
+        <div class="bg-dark h-50 w-50  ">
+            <div class="header-modal border-light border-bottom w-100 h-25 d-flex justify-content-end">
+                <button class="btn close text-light">Close</button>
+            </div>
+            <div class="w-100 h-75 bg-danger">
+                <h1>Modal1</h1>
+            </div>
+        </div>
+    </div>
 
+
+    button trigger modal
+    <!-- <button class="btn_modal2_2" data-mf-target="modal2"><i class="fa-regular fa-eye p-2"></i>Watch Video</button> -->
+    <!-- Modal -->
+    <!-- <div id="modal2" class="myModal d-none">
+
+
+
+
+        <div  class=" h-20 w-50  ">
+            <div class="header-modal border-light border-bottom w-100 h-25 d-flex justify-content-end">
+                <button class="btn close text-light">Close</button>
+            </div>
+            <div class="w-100 h-75 bg-danger">
+                <div id="carouselExampleIndicators" class="carousel slide">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    </div>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <video src="./public/assets/videos/restaurantVIDEO.mp4" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <video src="./public/assets/videos/restaurantVIDEO.mp4" class="d-block w-100" alt="...">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+            </div>
+        </div>
+
+
+
+
+
+    </div> -->
+
+
+
+    <div class="test bg-danger"></div>
 
 
 
