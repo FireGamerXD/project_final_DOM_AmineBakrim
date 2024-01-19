@@ -22,16 +22,16 @@ btnModal.forEach(element => {
 
                 myCloseBTN.addEventListener("click", () => {
                     element.classList.toggle("d-none")
+                    document.body.classList.toggle("overflow-none")
                 })
 
-                
                 document.body.classList.toggle("overflow-y-hidden")
             }
-
+            
         });
-
 
     })
 
 
 });
+
